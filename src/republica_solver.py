@@ -125,8 +125,7 @@ class RepublicaSolver:
 # DADOS QUE FUNCIONAM (6 Moradores para 3 Semanas)
 # ==============================================================================
 if __name__ == "__main__":
-    # Adicionei "Carla" para termos 6 pessoas.
-    # Cozinha (2 vagas) * 3 Semanas = 6 pessoas necessárias. Agora fecha a conta!
+    # Cozinha (2 vagas) * 3 Semanas = 6 pessoas necessárias
     moradores = ["Joao", "Maria", "Pedro", "Ana", "Lucas", "Carla", "Marcos", "Nicole", "Sophia"]
     
     semanas = ["Semana1", "Semana2", "Semana3", "Semana4"]
@@ -136,7 +135,7 @@ if __name__ == "__main__":
     dificuldade = {"Sala": 2, "Cozinha": 5, "Banheiro": 8}
     qtd_vagas = {"Sala": 1, "Cozinha": 2, "Banheiro": 1} # Total 4 vagas/semana
     
-    # Indisponibilidade (Adicionei a coluna da Carla)
+    # Indisponibilidade
     indisponibilidade = {
         "Semana1": {"Joao": 1, "Maria": 10, "Pedro": 5, "Ana": 2, "Lucas": 1, "Carla": 3, "Marcos": 7,"Nicole": 1, "Sophia": 2},
         "Semana2": {"Joao": 5, "Maria": 2, "Pedro": 10, "Ana": 1, "Lucas": 5, "Carla": 8, "Marcos": 8,"Nicole": 6, "Sophia": 5},
