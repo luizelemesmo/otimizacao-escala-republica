@@ -68,6 +68,7 @@ indisponibilidade dos moradores e penalidades por trabalho consecutivo.
 ├── txt/
 │   └── relatorio.pdf
 └── README.md
+
 - `src/`: contém a implementação do algoritmo em Python  
 - `txt/`: contém o relatório técnico do trabalho em formato PDF  
 - `README.md`: documentação geral do projeto  
