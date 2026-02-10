@@ -68,6 +68,7 @@ indisponibilidade dos moradores e penalidades por trabalho consecutivo.
 ├── txt/
 │   └── relatorio.pdf
 └── README.md
+```
 
 - `src/`: contém a implementação do algoritmo em Python  
 - `txt/`: contém o relatório técnico do trabalho em formato PDF  
@@ -92,6 +93,7 @@ solver = RepublicaSolver(
 )
 
 solucao = solver.resolver()
+```
 
 A solução retornada corresponde à melhor escala encontrada de acordo com o modelo e as
 restrições definidas.
