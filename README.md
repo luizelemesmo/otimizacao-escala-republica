@@ -68,16 +68,17 @@ indisponibilidade dos moradores e penalidades por trabalho consecutivo.
 ├── txt/
 │   └── relatorio.pdf
 └── README.md
--- src/: contém a implementação do algoritmo em Python
--- txt/: contém o relatório técnico do trabalho em formato PDF
--- README.md: documentação geral do projeto
+- `src/`: contém a implementação do algoritmo em Python  
+- `txt/`: contém o relatório técnico do trabalho em formato PDF  
+- `README.md`: documentação geral do projeto  
 
-▶️ Execução
+▶️ **Execução**
 
-O código foi desenvolvido em Python 3 e não depende de bibliotecas externas.
+O código foi desenvolvido em **Python 3** e não depende de bibliotecas externas.
 
 Um exemplo simplificado de uso é apresentado a seguir:
 
+```python
 from republica_solver import RepublicaSolver
 
 solver = RepublicaSolver(
@@ -91,11 +92,12 @@ solver = RepublicaSolver(
 
 solucao = solver.resolver()
 
-
 A solução retornada corresponde à melhor escala encontrada de acordo com o modelo e as
 restrições definidas.
 
-📊 Resultados
+---
+
+## 📊 Resultados
 
 Para instâncias de pequeno e médio porte, típicas de repúblicas estudantis, o algoritmo é
 capaz de encontrar soluções ótimas em tempo viável. A utilização da poda por custo é
@@ -104,30 +106,35 @@ fundamental para reduzir o espaço de busca e evitar a explosão combinatória.
 Resultados experimentais e análises detalhadas podem ser encontrados no relatório
 técnico.
 
+---
+
 ## 📄 Relatório Técnico
 
 O relatório completo do projeto, contendo:
-definição do problema;
-modelo matemático;
-descrição da implementação;
-análise de resultados;
-está disponível na pasta txt/.
+
+- definição do problema;
+- modelo matemático;
+- descrição da implementação;
+- análise de resultados;
+
+está disponível na pasta `txt/`.
+
+---
 
 ## 👨‍🎓 Autores
 
-Fernanda Alves Andrade
-Hugo Augusto Silva de Faria
-Luiz Henrique de Carvalho
-Marcos Vinício Euzébio
-Nicole Bertolino Lamounier Santos
+- Fernanda Alves Andrade  
+- Hugo Augusto Silva de Faria  
+- Luiz Henrique de Carvalho  
+- Marcos Vinício Euzébio  
+- Nicole Bertolino Lamounier Santos  
 
-
-Curso de Ciência da Computação
-Universidade Federal de Ouro Preto – UFOP
+Curso de Ciência da Computação  
+Universidade Federal de Ouro Preto – UFOP  
 
 ---
 
 ## 📌 Observação
 
 Este repositório tem finalidade acadêmica e foi desenvolvido exclusivamente para fins
-educacionais, no contexto da disciplina BCC325 – Inteligência Artificial.
+educacionais, no contexto da disciplina **BCC325 – Inteligência Artificial**.
