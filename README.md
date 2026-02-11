@@ -2,7 +2,7 @@
 
 Este repositório contém a implementação de uma solução computacional para o problema
 de alocação de tarefas domésticas em repúblicas estudantis, desenvolvida no contexto da
-**Avaliação 02** da disciplina **BCC325 – Inteligência Artificial**, do curso de Ciência da
+**Avaliação II** da disciplina **BCC325 – Inteligência Artificial**, do curso de Ciência da
 Computação da **Universidade Federal de Ouro Preto (UFOP)**.
 
 O problema é modelado como um **Problema de Satisfação de Restrições (CSP)** e resolvido
